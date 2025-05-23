@@ -33,7 +33,7 @@ app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-    origin: 'https://fascinating-fudge-ae734b.netlify.app/',
+    origin: 'https://fascinating-fudge-ae734b.netlify.app',
     credentials: true,
 }));
 app.use('/css', express.static(path.join(__dirname, 'css')));
